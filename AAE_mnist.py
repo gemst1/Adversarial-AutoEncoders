@@ -3,7 +3,7 @@ import numpy as np
 import os
 import imageio
 import matplotlib.pyplot as plt
-from AAE.model import encoder, decoder, discriminator
+from model import encoder, decoder, discriminator
 
 class AAE_mnist():
     def __init__(self,
